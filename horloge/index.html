@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bulma cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <!-- font-awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <!-- Concert one -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <!-- mon style -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Alarme</title>
+</head>
+<body>
+    <div class="container" id="clock">
+        <h1 class="title is-1">Alarme javascript</h1>
+        <div class="bock">
+            <select name="langue" class="langue">
+                <option value="Fr-fr">---Chisissez votre langue--</option>
+                <option value="Fr-fr">Français</option>
+                <option value="US-en">Anglais</option>
+                <option value="Es-es">Espagnol</option>
+                <option value="Ru-ru">Russe</option>
+                <option value="De-de">Allemand</option>
+            </select>
+        </div>
+        
+      
+        <span class="clock-day"></span>
+        <span class="clock-jour"></span>
+        <span class="clock-month"></span>
+        <span class="clock-time"></span>
+        <span class="clock-ampm"></span>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

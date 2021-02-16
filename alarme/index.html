@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- bulma cdn -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+        <!-- font-awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+        <!-- Concert one -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+        <!-- mon style -->
+        <link rel="stylesheet" href="./style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container" id="compte">
+
+            <h1 class="title is-1"> Compte à rebours </h1>
+            Minutes :
+            <input type="number" id="number" value="10">
+            <button id="save" class="button is-info is-small">Enregistrer</button>
+
+
+            <p id="timer"></p>
+
+           <p id="MMSS">09:01</p>
+
+            <div id="control">
+                <button class="button is-link" type="submit" id="start"> Start </button>
+                <button class="button is-danger" type="submit" id="stop"> Stop </button>
+                <button class="button is-warning" type="submit" id="reset"> Reset </button>
+            </div>
+        </div>
+        <script src="./app.js">
+        // var monbouton = document.querySelector('#myBtn');
+        // var nombre = document.querySelector("#number");
+
+
+        // monbouton.addEventListener("click", function() {
+        //   document.getElementById("demo").innerHTML = nombre.value;
+        // });
+        </script>
+    </body>
+</html>
